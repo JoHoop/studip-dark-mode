@@ -2,10 +2,14 @@
     "manifest_version": 2,
     "name": "StudIP Logo Mod",
     "version": "0.1",
+    "description": "Replaces StudIP logo with StupID logo.",
     "content_scripts": [
         {
-            "matches": ["https://elearning.uni*", "http://elearning.uni*"],
-            "js": ["jquery-2.2.4.min.js", "content.js"]
+            "matches": ["https://elearning.uni-bremen.de/*"],
+            "js": ["jquery-2.2.4.min.js", "scripts.js"]
         }
-    ]
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
 }
