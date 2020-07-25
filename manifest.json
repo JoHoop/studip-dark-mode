@@ -1,5 +1,11 @@
 {
     "manifest_version": 2,
     "name": "StudIP Logo Mod",
-    "version": "0.1"
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://elearning.uni*", "http://elearning.uni*"],
+            "js": ["jquery-2.2.4.min.js", "content.js"]
+        }
+    ]
 }
