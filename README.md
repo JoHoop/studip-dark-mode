@@ -2,7 +2,13 @@
 
 Chrome Browser Extension to replace the StudIP logo with a StupID logo.
 
-### Install extension from [Chrome Web Store](https://chrome.google.com/webstore/category/extensions)
+> StudIP is the campus management platform deployed at several German universities.
+> Note that this extension currently only works at the University of Bremen.
+> Feel free to add support for other universities by changing the url matching pattern.
+
+### Install extension from the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions)
+
+(awaiting approval)
 
 or
 
