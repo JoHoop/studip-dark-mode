@@ -3,7 +3,7 @@ function replaceLogo() {
     for (var i = 0; i < images.length; i++) {
         if (
             images[i].src ===
-            "https://www.studip.de/fileadmin/portal3/templates/gfx/studip_logo.svg"
+            "https://elearning.uni-bremen.de/assets/images/logos/studip-logo.svg"
         )
             images[i].src = chrome.runtime.getURL("images/stupid-logo.svg");
     }
