@@ -21,9 +21,9 @@ function restoreState() {
 
 function reloadIcon() {
     if (document.getElementById("enabled").checked) {
-        chrome.browserAction.setIcon({ path: "images/icon-on.png" });
+        chrome.browserAction.setIcon({ path: "../images/icon-true.png" });
     } else {
-        chrome.browserAction.setIcon({ path: "images/icon-off.png" });
+        chrome.browserAction.setIcon({ path: "../images/icon-false.png" });
     }
 }
 
