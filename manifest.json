@@ -1,15 +1,26 @@
 {
     "manifest_version": 2,
     "name": "StudIP Logo Mod",
-    "version": "0.1",
+    "version": "1.0",
     "description": "Replaces StudIP logo with StupID logo.",
+    "author": "JoHoop",
+    "icons": {
+        "128": "images/icon.png"
+    },
+    "homepage_url": "https://github.com/JoHoop/studip-logo-mod",
+    "permissions": ["storage"],
+    "web_accessible_resources": ["images/stupid-logo.svg"],
+    "browser_action": {
+        "default_icon": "images/icon.png",
+        "default_title": "StudIP Logo Mod",
+        "default_popup": "popup/popup.html"
+    },
     "content_scripts": [
         {
-            "matches": ["https://elearning.uni-bremen.de/*"],
-            "js": ["jquery-2.2.4.min.js", "scripts.js"]
+            "matches": ["<all_urls>"],
+            "run_at": "document_end",
+            "js": ["replace.js"],
+            "all_frames": true
         }
-    ],
-    "browser_action": {
-        "default_icon": "icon.png"
-    }
+    ]
 }
