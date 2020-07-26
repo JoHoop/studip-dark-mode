@@ -5,7 +5,7 @@ function replaceLogo() {
             images[i].src ===
             "https://elearning.uni-bremen.de/assets/images/logos/studip-logo.svg"
         )
-            images[i].src = chrome.runtime.getURL("images/stupid-logo.svg");
+            images[i].src = chrome.runtime.getURL("assets/stupid-logo.svg");
     }
 }
 

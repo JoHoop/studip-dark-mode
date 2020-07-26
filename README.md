@@ -1,12 +1,14 @@
-# studip-logo-mod
+# StudIP Logo Mod
 
 Chrome Browser Extension to replace the StudIP logo with a StupID logo.
 
-### Install extension from [Chrome Web Store](https://chrome.google.com/webstore/category/extensions)
+# Installation
 
--   https://chrome.google.com/webstore/category/extensions
+### \* Install extension from [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) (recommended)
 
-### Manually load extension into Chrome
+or
+
+### \* Manually load extension into Chrome
 
 1. Clone or download this repository to your machine
 2. Open up `chrome://extensions/` in your browser
@@ -14,4 +16,4 @@ Chrome Browser Extension to replace the StudIP logo with a StupID logo.
 4. Click `Load unpacked extension` in the top left
 5. Select this extension's directory
 
-![Logo replacement preview](/images/readme-header.png)
+![Logo replacement preview](/assets/readme-header.png)
