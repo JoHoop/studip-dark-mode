@@ -1,5 +1,3 @@
-console.log("script running!");
-
 function replace() {
     var images = document.getElementsByTagName("img");
     for (var i = 0; i < images.length; i++) {
@@ -12,7 +10,8 @@ function replace() {
 }
 
 chrome.storage.sync.get(["enabled"], function (result) {
-    if (result) {
+    console.log(`Enabled: ${result.enabled}`);
+    if (result.enabled) {
         var css = document.createElement("style");
         css.innerHTML =
             'img { content: url("images/stupid-logo.svg") !important; }';

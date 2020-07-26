@@ -8,7 +8,7 @@
         "128": "images/icon.png"
     },
     "homepage_url": "https://github.com/JoHoop/studip-logo-mod",
-    "permissions": ["storage"],
+    "permissions": ["storage", "tabs"],
     "web_accessible_resources": ["images/stupid-logo.svg"],
     "browser_action": {
         "default_icon": "images/icon.png",

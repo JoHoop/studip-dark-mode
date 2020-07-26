@@ -6,28 +6,22 @@ function save() {
             enabled: document.getElementById("enabled").checked,
         },
         function () {
-            document.getElementById("submit").value = "Saved";
+            reload();
         }
     );
 }
 
 function restore() {
     chrome.storage.sync.get(["enabled"], function (result) {
-        document.getElementById("enabled").checked = result || false;
+        document.getElementById("enabled").checked = result.enabled || false;
     });
 }
 
-function changed() {
-    document.getElementById("submit").value = "Save";
-}
-
-function enter(e) {
-    if (e.keyCode === 13) {
-        e.preventDefault();
-        save();
-    }
+function reload() {
+    chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+        chrome.tabs.update(tabs[0].id, { url: tabs[0].url });
+    });
 }
 
 document.addEventListener("DOMContentLoaded", restore);
-document.getElementById("submit").addEventListener("click", save);
-document.getElementById("enabled").addEventListener("click", changed);
+document.getElementById("enabled").addEventListener("click", save);
