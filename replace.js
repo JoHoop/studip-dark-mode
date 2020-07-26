@@ -1,4 +1,4 @@
-function replace() {
+function replaceLogo() {
     var images = document.getElementsByTagName("img");
     for (var i = 0; i < images.length; i++) {
         if (
@@ -12,7 +12,7 @@ function replace() {
 chrome.storage.sync.get(["enabled"], function (result) {
     console.log(`Enabled: ${result.enabled}`);
     if (result.enabled) {
-        window.setInterval(replace, 3000);
-        replace();
+        window.setInterval(replaceLogo, 3000);
+        replaceLogo();
     }
 });

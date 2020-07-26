@@ -1,27 +1,37 @@
 "use strict";
 
-function save() {
+function saveState() {
     chrome.storage.sync.set(
         {
             enabled: document.getElementById("enabled").checked,
         },
         function () {
-            reload();
+            reloadIcon();
+            reloadPage();
         }
     );
 }
 
-function restore() {
+function restoreState() {
     chrome.storage.sync.get(["enabled"], function (result) {
         document.getElementById("enabled").checked = result.enabled || false;
+        reloadIcon();
     });
 }
 
-function reload() {
+function reloadIcon() {
+    if (document.getElementById("enabled").checked) {
+        chrome.browserAction.setIcon({ path: "images/icon-on.png" });
+    } else {
+        chrome.browserAction.setIcon({ path: "images/icon-off.png" });
+    }
+}
+
+function reloadPage() {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
         chrome.tabs.update(tabs[0].id, { url: tabs[0].url });
     });
 }
 
-document.addEventListener("DOMContentLoaded", restore);
-document.getElementById("enabled").addEventListener("click", save);
+document.addEventListener("DOMContentLoaded", restoreState);
+document.getElementById("enabled").addEventListener("click", saveState);

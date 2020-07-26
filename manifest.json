@@ -5,13 +5,13 @@
     "description": "Replaces StudIP logo with StupID logo.",
     "author": "JoHoop",
     "icons": {
-        "128": "images/icon.png"
+        "128": "images/icon-on.png"
     },
     "homepage_url": "https://github.com/JoHoop/studip-logo-mod",
     "permissions": ["storage", "tabs"],
-    "web_accessible_resources": ["images/stupid-logo.svg"],
+    "web_accessible_resources": ["images/*"],
     "browser_action": {
-        "default_icon": "images/icon.png",
+        "default_icon": "images/icon-on.png",
         "default_title": "StudIP Logo Mod",
         "default_popup": "popup/popup.html"
     },
