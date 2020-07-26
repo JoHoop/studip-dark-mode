@@ -19,7 +19,7 @@
         {
             "matches": ["https://elearning.uni-bremen.de/*"],
             "run_at": "document_end",
-            "js": ["replace.js"],
+            "js": ["scripts/replace.js"],
             "all_frames": true
         }
     ]

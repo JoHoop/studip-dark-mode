@@ -10,7 +10,6 @@ function replaceLogo() {
 }
 
 chrome.storage.sync.get(["enabled"], function (result) {
-    console.log(`Enabled: ${result.enabled}`);
     if (result.enabled) {
         window.setInterval(replaceLogo, 3000);
         replaceLogo();
