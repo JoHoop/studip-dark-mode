@@ -19,4 +19,6 @@ or
 4. Click `Load unpacked extension` in the top left
 5. Select this repository's folder on your machine
 
-![Logo replacement preview](/assets/readme-header.png)
+![Logo replacement preview](/assets/stupid-banner.png)
+
+![Logo replacement preview](/assets/stupid-demo.png)
