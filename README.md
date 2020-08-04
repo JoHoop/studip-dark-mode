@@ -1,5 +1,10 @@
 # StupID Logo Mod
 
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/studip-logo-mod/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/studip-logo-mod/graphs/contributors/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/JoHoop/studip-logo-mod/graphs/commit-activity)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+
 Chrome Browser Extension to replace the StudIP logo with a StupID logo.
 
 > StudIP is the campus management platform deployed at several German universities.
