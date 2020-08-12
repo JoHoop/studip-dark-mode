@@ -15,7 +15,7 @@ Support other universities by adding their respective urls to the manifest.
 
 Pull requests would be very much appreciated ✌️
 
-### Install extension from the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) (awaiting approval)
+### Install extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/studip-logo-mod/fagenjpogifjohbjmdlomhkpbipkmeel) (recommended)
 
 or
 
