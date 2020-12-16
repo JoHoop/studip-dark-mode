@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "StupID Dark Mode",
   "version": "2.0",
-  "description": "Dark mode to StupID by injecting a stylesheet",
+  "description": "Dark mode for StupID by injecting a stylesheet",
   "author": "JoHoop",
   "icons": {
     "128": "assets/icon.png"
