@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "StupID Dark Mode",
+  "version": "2.0",
+  "description": "Dark mode for StupID by injecting a stylesheet",
+  "author": "JoHoop",
+  "icons": {
+    "128": "assets/icon.png"
+  },
+  "homepage_url": "https://github.com/JoHoop/studip-dark-mode",
+  "web_accessible_resources": ["assets/*"],
+  "browser_action": {
+    "default_icon": "assets/icon.png",
+    "default_title": "StupID Dark Mode"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://elearning.uni-bremen.de/*"],
+      "run_at": "document_end",
+      "js": ["logo.js"],
+      "css": ["styles.css"],
+      "all_frames": true
+    }
+  ]
+}
