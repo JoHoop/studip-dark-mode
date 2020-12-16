@@ -1,8 +1,8 @@
 # StupID Dark Mode
 
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/studip-logo-mod/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/JoHoop/studip-logo-mod.svg)](https://github.com/JoHoop/studip-logo-mod/graphs/contributors/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/JoHoop/studip-logo-mod/graphs/commit-activity)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/studip-dark-mode/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/JoHoop/studip-dark-mode.svg)](https://github.com/JoHoop/studip-dark-mode/graphs/contributors/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/JoHoop/studip-dark-mode/graphs/commit-activity)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
 Chrome Browser Extension to add dark mode to StupID by injecting a stylesheet.
@@ -15,7 +15,7 @@ Other universities can be supported by adding by their urls to the manifest.
 
 Pull requests would be very much appreciated ✌️
 
-### Install extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/studip-logo-mod/fagenjpogifjohbjmdlomhkpbipkmeel) (recommended)
+### Install extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/studip-dark-mode/fagenjpogifjohbjmdlomhkpbipkmeel) (recommended)
 
 or
 
