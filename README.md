@@ -37,4 +37,4 @@ or
 4. Choose Develop > Allow Unsigned Extensions. The Allow Unsigned Extensions setting is reset when you quit Safari; you must set it again the next time Safari is launched.
 5. Select the Extensions tab and enable `StupID Dark Mode` by selecting the checkbox.
 
-![Screenshot](/assets/demo.png)
+![Screenshot](/demo.png)
