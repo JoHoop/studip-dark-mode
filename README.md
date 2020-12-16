@@ -21,20 +21,21 @@ or
 
 ### Manually load extension into Chrome
 
-1. Clone or download this repository to your machine
-2. Open up `chrome://extensions/` in your browser
-3. Enable `Developer mode` in the top right
-4. Click `Load unpacked extension` in the top left
-5. Select the `chrome-extension` folder from this repository
+1. Clone or download this repository to your machine.
+2. Open up `chrome://extensions/` in your browser.
+3. Enable `Developer mode` in the top right.
+4. Click `Load unpacked extension` in the top left.
+5. Select the `chrome-extension` folder from this repository.
 
 or
 
 ### Manually load extension into Safari
 
-1. Clone or download this repository to your machine
-2. Double click the `studip-dark-mode.app` from the `safari-extension` folder
+1. Clone or download this repository to your machine.
+2. Double click the `studip-dark-mode.app` from the `safari-extension` folder.
 3. Open Safari and choose `Safari > Preferences > Advanced` and then select the `Show Develop menu in menu bar` checkbox.
 4. Choose `Develop > Allow Unsigned Extensions`. This will be reset when you quit Safari; you must set it again the next time Safari is launched.
 5. Select the Extensions tab and enable `StupID Dark Mode` by selecting the checkbox.
+6. Click on the extension in the menu bar and allow forever.
 
 ![Screenshot](/demo.png)
