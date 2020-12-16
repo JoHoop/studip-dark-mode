@@ -33,8 +33,8 @@ or
 
 1. Clone or download this repository to your machine
 2. Double click the `studip-dark-mode.app` from the `safari-extension` folder
-3. Open Safari and choose Safari > Preferences > Advanced and then select the `Show Develop menu in menu bar` checkbox.
-4. Choose Develop > Allow Unsigned Extensions. The Allow Unsigned Extensions setting is reset when you quit Safari; you must set it again the next time Safari is launched.
+3. Open Safari and choose `Safari > Preferences > Advanced` and then select the `Show Develop menu in menu bar` checkbox.
+4. Choose `Develop > Allow Unsigned Extensions`. This will be reset when you quit Safari; you must set it again the next time Safari is launched.
 5. Select the Extensions tab and enable `StupID Dark Mode` by selecting the checkbox.
 
 ![Screenshot](/demo.png)
