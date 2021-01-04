@@ -38,6 +38,8 @@ or
 5. Select the Extensions tab and enable `StupID Dark Mode` by selecting the checkbox.
 6. Click on the extension in the menu bar and allow forever.
 
+(I'll build an .xcarchive soon that can be signed individually)
+
 ![Screenshot](/demo.png)
 
 (When you use unsigned builds, safari stops the extension after a while for security reasons. You can use the extension without any problems by signing it with your personal development certificate.)
