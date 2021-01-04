@@ -1,4 +1,4 @@
-# StupID Dark Mode
+# StupID Dark Mode (WIP)
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/studip-dark-mode/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/JoHoop/studip-dark-mode.svg)](https://github.com/JoHoop/studip-dark-mode/graphs/contributors/)
