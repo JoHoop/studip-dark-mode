@@ -43,3 +43,12 @@ or
 ![Screenshot](/demo.png)
 
 (When you use unsigned builds, safari stops the extension after a while for security reasons. You can use the extension without any problems by signing it with your personal development certificate.)
+
+## Contributors
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/JoHoop"><img src="https://avatars.githubusercontent.com/u/67421398?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jo</b></sub></a></td>
+    <td align="center"><a href="https://github.com/JonasWlsmn"><img src="https://avatars.githubusercontent.com/u/64418071?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JonasWlsmn</b></sub></a></td>
+  </tr>
+</table>
