@@ -167,7 +167,7 @@ input {
 }
 .sidebar .sidebar-widget,
 .sidebar .sidebar-widget-placeholder {
-  border: 0px !important;
+  border: 1px solid #6c7175 !important;
 }
 div.messagebox_info {
   color: white !important;
@@ -291,6 +291,22 @@ form.default select,
 form.default textarea {
   color: #c9d1d9 !important;
 }
+/*DoIT*/
+.public-intro{
+  background-color: #1f3f70 !important;
+}
+
+.msg-box-info{
+  background-color: #2f2f306b !important;
+  color: #f6f6f6 !important;
+}
+.public_thema_title, .thema-title-block, 
+.aufgabe-title-block, .student_work_main{
+  background-color:#2f2f306b !important;
+}
+.student_feedback_main{
+  background-color: #27732d !important ;
+}*/
 /*LOGIN*/
 div.index_container div.index_main {
   background-color: #0d1117 !important;
