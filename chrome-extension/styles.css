@@ -202,9 +202,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #c9d1d9 !important;
+  color: #212224 !important;
   font-weight: normal !important;
 }
+
+
 .studip-tooltip {
   background-image: linear-gradient(to bottom, #21262d, #21262d) !important;
   border: 0px !important;
@@ -311,6 +313,16 @@ form.default textarea {
 div.index_container div.index_main {
   background-color: #0d1117 !important;
 }
+
+h1 {
+color: #c9d1d9;
+}
+
+label {
+	color: #212224 !important;
+	font-weight: normal !important;
+}
+
 /*FOOTER*/
 #barBottomright,
 #layout_footer {
