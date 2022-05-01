@@ -1,28 +1,35 @@
+/*COLOR DEFINITIONS*/
+:root {
+  --studip-background-color: #0d1117;
+  --studip-text-color: #c9d1d9;
+}
+
+/*MAIN*/
 body {
-  color: #c9d1d9 !important;
-  background-color: #0d1117 !important;
+  color: var(--studip-text-color) !important;
+  background-color: var(--studip-background-color) !important;
 }
 textarea {
-  background-color: #0d1117 !important;
+  background-color: var(--studip-background-color) !important;
   color: white !important;
 }
 ::placeholder {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
   opacity: 1 !important;
 }
 :-ms-input-placeholder {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 ::-ms-input-placeholder {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 select {
-  color: #c9d1d9 !important;
-  background-color: #0d1117 !important;
+  color: var(--studip-text-color) !important;
+  background-color: var(--studip-background-color) !important;
 }
 #barBottomContainer {
-  background-color: #0d1117 !important;
-  color: #c9d1d9 !important;
+  background-color: var(--studip-background-color) !important;
+  color: var(--studip-text-color) !important;
 }
 #layout-sidebar,
 #layout_container,
@@ -35,7 +42,7 @@ select {
 #tabs li,
 .smiley-tabs li,
 .helpbar {
-  background: #0d1117 !important;
+  background: var(--studip-background-color) !important;
 }
 #page_title_container,
 #tabs {
@@ -44,7 +51,7 @@ select {
   border: 0px !important;
 }
 #layout_wrapper #layout_page .tabs_wrapper {
-  background-color: #0d1117 !important;
+  background-color: var(--studip-background-color) !important;
 }
 table.default > caption,
 #tabs li.current,
@@ -53,12 +60,12 @@ table.default > caption,
 .smiley-tabs li.current a,
 .smiley-tabs li.current span.quiet,
 body:not(.fixed) #barTopMenu a {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 #tabs a,
 #tabs span.quiet,
 .smiley-tabs a {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 tr.sortable,
 table.default > thead > tr > th {
@@ -68,7 +75,7 @@ table.default > thead > tr > th {
 a,
 a:link,
 a:visited {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 /*Link generell*/
 a:hover,
@@ -84,18 +91,18 @@ section.contentbox header h1 {
   right: 0px !important;
 }
 .studip-widget .widget-header {
-  background-color: #0d1117 !important;
-  color: #c9d1d9 !important;
+  background-color: var(--studip-background-color) !important;
+  color: var(--studip-text-color) !important;
   font-weight: normal !important;
 }
 .studip-widget {
-  border: 1px solid #0d1117 !important;
+  border: 1px solid var(--studip-background-color) !important;
   transition: none !important;
 }
 /*DRAG N DROP*/
 .js .drag-and-drop {
   background-color: #21262d !important;
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 /*NAVBAR*/
 li.active {
@@ -108,7 +115,7 @@ li.active {
   margin-right: -5px !important;
 }
 .ui-dialog.studip-confirmation .ui-dialog-titlebar {
-  background-color: #c9d1d9 !important;
+  background-color: var(--studip-text-color) !important;
   color: #000 !important;
   text-align: left !important;
 }
@@ -124,7 +131,7 @@ li.active {
   background-color: #21262d !important;
 }
 abbr {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 .lectureItemTitle {
   font-weight: bold !important;
@@ -137,37 +144,37 @@ button.button:focus {
 }
 /*NAVBAR SEARCH*/
 input {
-  background-color: #0d1117 !important;
-  color: #c9d1d9 !important;
+  background-color: var(--studip-background-color) !important;
+  color: var(--studip-text-color) !important;
 }
 #globalsearch-searchbar #globalsearch-list {
-  background-color: #0d1117 !important;
+  background-color: var(--studip-background-color) !important;
 }
 /*NAVBAR USER ICON*/
 #notification_marker {
   color: #28497c !important;
-  background-color: #0d1117 !important;
+  background-color: var(--studip-background-color) !important;
 }
 .action-menu.avatar-menu .action-menu-content {
-  background: #0d1117 !important;
-  background-color: #0d1117 !important;
+  background: var(--studip-background-color) !important;
+  background-color: var(--studip-background-color) !important;
 }
 .action-menu.avatar-menu .action-menu-content div {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 /*SIDEMENU*/
 .sidebar .sidebar-widget-header {
   background: #21262d !important;
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
   padding-left: 10px !important;
 }
 .sidebar-widget-content {
-  background: #0d1117 !important;
+  background: var(--studip-background-color) !important;
   border-top: 0px !important;
 }
 .sidebar .sidebar-widget,
 .sidebar .sidebar-widget-placeholder {
-  border: 1px solid #6c7175 !important;
+  border: 0 !important;
 }
 div.messagebox_info {
   color: white !important;
@@ -176,7 +183,7 @@ div.messagebox_info {
 }
 article.studip,
 section.contentbox {
-  border-color: #0d1117 !important;
+  border-color: var(--studip-background-color) !important;
 }
 article.studip header,
 section.contentbox header {
@@ -190,7 +197,7 @@ table#schedule_data thead tr td,
 table#schedule_data tbody td:first-child,
 div.schedule_hours {
   background-color: #21262d !important;
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 div.schedule_day {
   border-right: 2px double #21262d !important;
@@ -220,15 +227,15 @@ h6 {
 }
 /*NACHRICHTEN*/
 body#messages-overview {
-  background-color: #0d1117 !important;
+  background-color: var(--studip-background-color) !important;
 }
 .ui-dialog.ui-widget.ui-widget-content {
   border: 0px !important;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) !important;
 }
 .ui-widget-content {
-  background: #0d1117 !important;
-  color: #c9d1d9 !important;
+  background: var(--studip-background-color) !important;
+  color: var(--studip-text-color) !important;
 }
 .message_body {
   background-color: #21262d !important;
@@ -244,12 +251,12 @@ a.button,
 button.button {
   background: #21262d !important;
   border: 0 !important;
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
   font-weight: normal !important;
 }
 article.studip header h1,
 section.contentbox header h1 {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 /*GRUPPEN*/
 section.course-statusgroups article section table tfoot tr td,
@@ -258,27 +265,27 @@ section.course-statusgroups article section table thead tr th {
 }
 /*BLUBBER*/
 #blubber_threads > .thread > .contextinfo {
-  background-color: #0d1117 !important;
-  color: #c9d1d9 !important;
+  background-color: var(--studip-background-color) !important;
+  color: var(--studip-text-color) !important;
 }
 #blubber_threads .comments {
-  background-color: #0d1117 !important;
-  border-top: 1px solid #0d1117 !important;
-  background-color: #0d1117 !important;
+  background-color: var(--studip-background-color) !important;
+  border-top: 1px solid var(--studip-background-color) !important;
+  background-color: var(--studip-background-color) !important;
 }
 #blubber_threads .comments .posting {
-  background-color: #0d1117 !important;
+  background-color: var(--studip-background-color) !important;
 }
 /*ANKÜNDIGUNGEN*/
 form.default fieldset > legend {
   background-color: #21262d !important;
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 form.default footer {
   background-color: #21262d !important;
 }
 div.messagebox_info {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 /*FORM*/
 form.default input[type="date"],
@@ -291,7 +298,7 @@ form.default input[type="time"],
 form.default input[type="url"],
 form.default select,
 form.default textarea {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 /*DoIT*/
 .public-intro{
@@ -311,11 +318,11 @@ form.default textarea {
 }*/
 /*LOGIN*/
 div.index_container div.index_main {
-  background-color: #0d1117 !important;
+  background-color: var(--studip-background-color) !important;
 }
 
 h1 {
-color: #c9d1d9;
+color: var(--studip-text-color);
 }
 
 label {
@@ -326,9 +333,9 @@ label {
 /*FOOTER*/
 #barBottomright,
 #layout_footer {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
 #barBottomright > ul > li > a,
 #layout_footer > ul > li > a {
-  color: #c9d1d9 !important;
+  color: var(--studip-text-color) !important;
 }
