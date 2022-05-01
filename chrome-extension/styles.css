@@ -39,6 +39,7 @@ select {
 #tabs2,
 #layout_page,
 #layout_content,
+#layout_context_title,
 #tabs li,
 .smiley-tabs li,
 .helpbar {
@@ -68,9 +69,13 @@ body:not(.fixed) #barTopMenu a {
   color: var(--studip-text-color) !important;
 }
 tr.sortable,
-table.default > thead > tr > th {
+table.default > thead > tr > th,
+table.default > tbody > tr > th {
   background-color: #21262d !important;
   border: 0px !important;
+}
+table.default > tfoot > tr > td {
+  background-color: var(--studip-background-color) !important;
 }
 a,
 a:link,
@@ -195,9 +200,26 @@ ul#tabs {
 /*STUNDENPLAN*/
 table#schedule_data thead tr td,
 table#schedule_data tbody td:first-child,
-div.schedule_hours {
+div.schedule_hours,
+.fc-time,
+.fc-widget-header {
   background-color: #21262d !important;
   color: var(--studip-text-color) !important;
+}
+.fc-unthemed .fc-content, 
+.fc-unthemed .fc-divider, 
+.fc-unthemed .fc-list-heading td, 
+.fc-unthemed .fc-list-view, 
+.fc-unthemed .fc-popover, 
+.fc-unthemed .fc-row, 
+.fc-unthemed tbody, 
+.fc-unthemed td, 
+.fc-unthemed th, 
+.fc-unthemed thead {
+  border-color: black !important;
+}
+.fc .fc-button-group .fc-button:not(:hover) {
+  background-color: #212224 !important;
 }
 div.schedule_day {
   border-right: 2px double #21262d !important;
@@ -224,6 +246,10 @@ h6 {
   -moz-box-shadow: 0 0px 0px !important;
   box-shadow: 0 0px 0px !important;
   text-shadow: 0 0px 0px !important;
+}
+/*STUDIUM -> ABLAUFPLAN*/
+table.dates .nextdate {
+  background-color: #151c25 !important;
 }
 /*NACHRICHTEN*/
 body#messages-overview {
@@ -264,6 +290,17 @@ section.course-statusgroups article section table thead tr th {
   background-color: #21262d !important;
 }
 /*BLUBBER*/
+.blubber_thread,
+.blubber_thread .writer,
+.blubber_thread ol.comments > li.theirs > .content:after {
+  background-color: var(--studip-background-color) !important;
+}
+.blubber_thread ol.comments > li.theirs > .content {
+  background-color: #212224 !important;
+}
+.blubber_thread ol.comments>li.theirs>.content:before {
+  border-right-color: #212224 !important;
+}
 #blubber_threads > .thread > .contextinfo {
   background-color: var(--studip-background-color) !important;
   color: var(--studip-text-color) !important;
@@ -315,10 +352,29 @@ form.default textarea {
 }
 .student_feedback_main{
   background-color: #27732d !important ;
-}*/
+}
+/*MENSA WIDGET*/
+.mensa-widget .current {
+  background-color: #21262d !important;
+}
+/*COURSEWARE*/
+#courseware * {
+  background-color: var(--studip-background-color) !important;
+}
+#courseware .cw-sidebar .chapters-header,
+#courseware ol.active-subchapter {
+  background-color: #21262d !important;
+}
 /*LOGIN*/
 div.index_container div.index_main {
   background-color: var(--studip-background-color) !important;
+}
+.main-login > .portal-login,
+.main-login > .portal-help {
+  background: var(--studip-background-color) !important;
+}
+.main-login label {
+  color: var(--studip-text-color) !important;
 }
 
 h1 {
@@ -333,9 +389,18 @@ label {
 /*FOOTER*/
 #barBottomright,
 #layout_footer {
+  background: var(--studip-background-color) !important;
   color: var(--studip-text-color) !important;
 }
 #barBottomright > ul > li > a,
 #layout_footer > ul > li > a {
   color: var(--studip-text-color) !important;
+}
+
+/*MISC*/
+.css-tree ul li:last-child:before {
+  background-color: var(--studip-background-color) !important;
+}
+.clockip {
+  color: white !important;
 }
