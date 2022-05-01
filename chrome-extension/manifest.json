@@ -15,7 +15,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://elearning.uni-bremen.de/*"],
+      "matches": [
+        "https://elearning.uni-bremen.de/*",
+        "https://elearning.uni-oldenburg.de/*"
+      ],
       "run_at": "document_end",
       "js": ["logo.js"],
       "css": ["styles.css"],
