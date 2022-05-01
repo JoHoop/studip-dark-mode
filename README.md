@@ -9,7 +9,9 @@ Chrome Browser Extension to add dark mode to StupID by injecting a stylesheet.
 
 > StudIP is the campus management platform deployed at several German universities.
 
-Currently only works at the University of Bremen.
+Currently only works for:
+- University of Bremen
+- Carl von Ossietzky University Oldenburg
 
 Other universities can be supported by adding by their urls to the manifest.
 
